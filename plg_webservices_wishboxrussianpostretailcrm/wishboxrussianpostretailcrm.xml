@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="webservices" method="upgrade">
+	<name>plg_webservices_wishboxrussianpostretailcrm</name>
+	<author>Nekrasov Vitaliy</author>
+	<creationDate>October 2026</creationDate>
+	<authorEmail>nekrasov_vitaliy@list.ru</authorEmail>
+	<version>1.0.0</version>
+	<description>PLG_WEBSERVICES_WISHBOXOZONRETAILCRM_XML_DESCRIPTION</description>
+	<namespace path="src">Joomla\Plugin\Webservices\WishboxRussianPostRetailCrm</namespace>
+	<scriptfile>script.php</scriptfile>
+	<files>
+		<folder plugin="wishboxrussianpostretailcrm">services</folder>
+		<folder>src</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/plg_webservices_wishboxrussianpostretailcrm.ini</language>
+		<language tag="en-GB">language/en-GB/plg_webservices_wishboxrussianpostretailcrm.sys.ini</language>
+		<language tag="ru-RU">language/ru-RU/plg_webservices_wishboxrussianpostretailcrm.ini</language>
+		<language tag="ru-RU">language/ru-RU/plg_webservices_wishboxrussianpostretailcrm.sys.ini</language>
+	</languages>
+</extension>

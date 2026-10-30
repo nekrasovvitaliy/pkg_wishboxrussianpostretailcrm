@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset
+		name="registration"
+		label="COM_WISHBOXRUSSIANPOSTRETAILCRM_FIELDSET_REGISTRATION_LABEL"
+	>
+		<field
+			name="mail_type"
+			type="text"
+			label="COM_WISHBOXRUSSIANPOSTRETAILCRM_FIELD_MAIL_TYPE_LABEL"
+			default="ONLINE_PARCEL"
+			required="true"
+			filter="cmd"
+		/>
+		<field
+			name="mail_category"
+			type="text"
+			label="COM_WISHBOXRUSSIANPOSTRETAILCRM_FIELD_MAIL_CATEGORY_LABEL"
+			default="ORDINARY"
+			required="true"
+			filter="cmd"
+		/>
+		<field
+			name="order_number_prefix"
+			type="text"
+			label="COM_WISHBOXRUSSIANPOSTRETAILCRM_FIELD_ORDER_NUMBER_PREFIX_LABEL"
+			filter="string"
+		/>
+	</fieldset>
+</config>
